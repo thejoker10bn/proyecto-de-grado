@@ -1,0 +1,25 @@
+# Cachés y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Archivos audiovisuales grandes / resultados de render
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+reels_linea90/
+_tmp_linea90/
+*.rendering.tmp.mp4
+
+# Diagnósticos y temporales de ejecución
+ultimo_error_ffmpeg.txt
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
